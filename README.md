@@ -27,11 +27,11 @@ Finally Free device global memory,host memory and reset device.
 Save and Run the Program.
 
 ## Program:
-```
+
 > Developed by: Subramaniya Pillai B
 
 > Register number: 212221230109
-```
+
 ### (i) block.x=1023
 ```python
 #include "common.h"
@@ -492,13 +492,13 @@ int main(int argc, char **argv)
 ```
 ## Output:
 ### block.x = 1023
-![git](./01)
+![git](./01.png)
 
 ### block.x = 1024
-![git](https://github.com/Manojkumar-Siva/PCA-GPU-based-vector-summation.-Explore-the-differences./assets/93427265/317bfb68-c7d9-4c9b-8172-76b03f4e3d82)
+![git](./02.png)
 
 ### block.x = 256
-![git](https://github.com/Manojkumar-Siva/PCA-GPU-based-vector-summation.-Explore-the-differences./assets/93427265/cf6722b7-1474-4258-ab12-a2fd152b55ea)
+![git](./03.png)
 
 ### Host-based array summation vs GPU-based vector summation:
 GPUs: “SIMD” - “Single-Instruction, Multiple-Data”. A GPU can operate on a hundred or a thousand vertices or pixels at once in parallel, but it has to perform exactly the same calculation on all of them.
